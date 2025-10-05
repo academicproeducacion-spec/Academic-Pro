@@ -1,0 +1,29 @@
+# Robots.txt para AcademicPro Colombia
+# Optimizado para SEO en Google Colombia
+
+User-agent: *
+Allow: /
+
+# Permitir acceso completo a Google
+User-agent: Googlebot
+Allow: /
+
+# Permitir acceso a Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://academicopro.com/sitemap.xml
+
+# Crawl-delay para evitar sobrecarga del servidor
+Crawl-delay: 1
+
+# Permitir acceso a archivos CSS y JS para mejor indexación
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
